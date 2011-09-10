@@ -12,7 +12,8 @@ class LayoutHandler {
 	
 	static final CONVERTERS = [
 		'BigDecimal': { new BigDecimal(it[0..10] + "." + it[11..17]) },
-		'Integer': { Integer.valueOf(it) }
+		'Integer': { Integer.valueOf(it) },
+		'Long': { Long.valueOf(it) },
 	]
 	
 	static final FILTERS = [
