@@ -2,8 +2,8 @@
  FlatFile
 ==========
 
-It's still pretty common, at least in my experience, services exchanging data using anbitrary formats with fixed size strings.
-FlatFile is built with Groovy and aims to ease the boring task of mapping a fixed format plain text file to an arbitrary layout.
+It's still pretty common, at least in my experience, services exchanging data using arbitrary formats with fixed size strings.
+FlatFile is built with Groovy and aims to ease the boring task of mapping these files to an object via a pre-defined layout.
 Using FlatFile you can define the structure of a given file and easily transform the raw contents of a line in an object of yout choice.
 
 Installation
