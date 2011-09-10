@@ -85,14 +85,13 @@ With that it becomes really easy to process that file::
     }
     Person.list()
 
-Aaaand that's it :-)
+And that's it :-)
 
 TODO
 ====
 Show more examples
 # Other ways to build objects, using expandos or maps
+
 # How to build converters
+
 # Talk about filters
-
-
-:Author: Paulo Alem(@biggahed) <biggahed@gmail.com>
